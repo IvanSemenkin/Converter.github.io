@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Конвертер валют</title>
+  <link rel="icon" href="assets/icons/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="all">
+    <h2 id="main_text">Конвертер валют</h2>
+    <div class="container">
+      <div class="valute">
+        <span id="kurs_USD_name">Курс</span>
+        <span id="kurs_USD_value" class="valute_value"></span>
+      </div>
+
+      <div class="valute">
+        <span id="kurs_EUR_name">Курс</span>
+        <span id="kurs_EUR_value" class="valute_value"></span>
+      </div>
+
+      <div class="valute">
+        <span id="kurs_GBP_name">Курс</span>
+        <span id="kurs_GBP_value" class="valute_value"></span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container_content_selects">
+        <select class="input selects" id="selectInput"></select>
+
+        <select class="output selects" id="selectOutput"></select>
+      </div>
+      <div class="container_content_selects">
+        <input type="number" id="input_text" class="selects" value="100.0">
+        <span id="output_text" class="selects">Вывод</span>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
